@@ -1,0 +1,523 @@
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pop Tale - Luca Valvo It</title><meta name="description" content="Pop Tale è un progetto di tesi di gruppo sviluppato in quasi un&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-Q0M9ECX76S"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];
+				  function gtag(){dataLayer.push(arguments);}
+				  gtag('js', new Date());
+				  gtag('config', 'G-Q0M9ECX76S' );</script><link rel="canonical" href="https://crateluk.github.io/portfolio-it/1/"><link rel="alternate" type="application/atom+xml" href="https://crateluk.github.io/portfolio-it/feed.xml" title="Luca Valvo It - RSS"><link rel="alternate" type="application/json" href="https://crateluk.github.io/portfolio-it/feed.json" title="Luca Valvo It - JSON"><meta property="og:title" content="Pop Tale"><meta property="og:image" content="https://crateluk.github.io/portfolio-it/media/posts/10/image-1-compressed.jpg"><meta property="og:image:width" content="2558"><meta property="og:image:height" content="1432"><meta property="og:site_name" content="Luca Valvo It"><meta property="og:description" content="Pop Tale è un progetto di tesi di gruppo sviluppato in quasi un&hellip;"><meta property="og:url" content="https://crateluk.github.io/portfolio-it/1/"><meta property="og:type" content="article"><link rel="preload" href="https://crateluk.github.io/portfolio-it/assets/dynamic/fonts/faustina/faustina.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://crateluk.github.io/portfolio-it/assets/dynamic/fonts/faustina/faustina-italic.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://crateluk.github.io/portfolio-it/assets/css/style.css?v=ae1a97effe981f78a16832244bc9fbf0"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://crateluk.github.io/portfolio-it/1/"},"headline":"Pop Tale","datePublished":"2025-10-23T23:55+02:00","dateModified":"2025-10-27T23:47+01:00","image":{"@type":"ImageObject","url":"https://crateluk.github.io/portfolio-it/media/posts/10/image-1-compressed.jpg","height":1432,"width":2558},"description":"Pop Tale è un progetto di tesi di gruppo sviluppato in quasi un&hellip;","author":{"@type":"Person","name":"Luca","url":"https://crateluk.github.io/portfolio-it/authors/luca/"},"publisher":{"@type":"Organization","name":"Luca"}}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript><style>.container {
+    background: #000000 !important;
+}
+    
+.header {
+    background: #000000 !important;
+}
+    
+ 
+.logo {
+  color: #F3F6FA !important;
+}
+
+    
+    
+.navbar .navbar__menu li a,
+.navbar .navbar__menu li span[aria-haspopup=true] {
+  color: #F3F6FA;
+}
+    
+    
+}
+.navbar .navbar__menu > li.active a,
+.navbar .navbar__menu > li.active span, .navbar .navbar__menu > li.active-parent a,
+.navbar .navbar__menu > li.active-parent span {
+  color: #F3F6FA;
+}</style><script>document.addEventListener('DOMContentLoaded', () => {
+  const logo = document.querySelector('.logo');
+  if (logo) logo.textContent = 'Luca Valvo';
+});</script></head><body class="post-template"><style>/* ------------------------------
+   Fade-in coerente con direzione di scroll
+------------------------------ */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+/* Da sotto verso l'alto (scroll down) */
+.fade-in.from-bottom {
+  transform: translateY(40px);
+}
+
+/* Dall'alto verso il basso (scroll up) */
+.fade-in.from-top {
+  transform: translateY(-40px);
+}
+
+/* Stato visibile */
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}</style><script>document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(
+    ".c-card, .hero, .content__title, .page__content, img, p, h1, h2, h3"
+  );
+
+  elements.forEach(el => el.classList.add("fade-in", "from-bottom")); // direzione iniziale
+
+  let lastScrollY = window.scrollY;
+  let scrollDir = "down";
+
+  // rileva direzione globale di scroll
+  window.addEventListener("scroll", () => {
+    const currentY = window.scrollY;
+    scrollDir = currentY > lastScrollY ? "down" : "up";
+    lastScrollY = currentY <= 0 ? 0 : currentY;
+  });
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // applica direzione uniforme in base allo scroll corrente
+        entry.target.classList.remove("from-top", "from-bottom");
+        entry.target.classList.add(scrollDir === "down" ? "from-bottom" : "from-top");
+
+        // forzare il reflow
+        void entry.target.offsetWidth;
+
+        // mostra elemento
+        entry.target.classList.add("visible");
+      } else {
+        entry.target.classList.remove("visible");
+      }
+    });
+  }, {
+    threshold: 0.15,
+  });
+
+  elements.forEach(el => observer.observe(el));
+});</script><div class="container"><header class="header" id="js-header"><a href="https://crateluk.github.io/portfolio-it/" class="logo">Luca Valvo It</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li class="active-parent has-submenu"><a href="https://crateluk.github.io/portfolio-it/" title="Portfolio" target="_self" aria-haspopup="true">Portfolio</a><ul class="navbar__submenu level-2" aria-hidden="true"><li class="active"><a href="https://crateluk.github.io/portfolio-it/1/" target="_self">Pop Tale</a></li><li><a href="https://crateluk.github.io/portfolio-it/1-3/" target="_self">Robot</a></li><li><a href="https://crateluk.github.io/portfolio-it/1-2/" title="Awakening of the Abyss" target="_self">Awakening of the Abyss</a></li></ul></li><li><a href="https://crateluk.github.io/portfolio-it/page-4/" target="_self">Informazioni</a></li><li class="has-submenu"><a href="#" target="_self" aria-haspopup="true">Lingua</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="#" target="_self">Italiano</a></li><li><a href="#" target="_self">Inglese</a></li></ul></li></ul></nav></header><main class="post"><article class="content wrapper"><header class="hero"><h1 class="content__title">Pop Tale</h1></header><figure class="content__featured-image post__image--normal" src="https://crateluk.github.io/portfolio-it/media/posts/10/image-1-compressed.jpg" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-xs.jpg 300w ,https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-sm.jpg 480w ,https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-md.jpg 768w ,https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-lg.jpg 1024w ,https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-xl.jpg 1360w ,https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-2xl.jpg 1600w ,https://crateluk.github.io/portfolio-it/media/posts/10/responsive/image-1-compressed-sm2.jpg 375w" sizes="(max-width: 1600px) 100vw, 1600px" loading="eager" height="1432" width="2558" alt=""></figure><div class="content__entry"><p style="text-align: justify; text-justify: inter-word; margin: 0 auto; width: 80%;"><span style="font-size: inherit;"><em data-start="0" data-end="10">Pop Tale</em> è un progetto di tesi di gruppo sviluppato in quasi un anno da un team di sei studenti. Questo cortometraggio animato mi ha dato l’opportunità di crescere sia dal punto di vista tecnico che personale, lavorando all’interno di una pipeline di produzione completa, dal concept al render finale. Le mie principali responsabilità hanno riguardato gli effetti visivi, il rendering e il compositing, ma ho anche fornito supporto nella modellazione 3D, contribuendo alla creazione di asset e ambienti.<br>Oltre agli aspetti tecnici, <em data-start="537" data-end="547">Pop Tale</em> è stata un’esperienza formativa in termini di lavoro di squadra, comunicazione e problem-solving, che mi ha permesso di sviluppare un approccio collaborativo, e la capacità di adattarmi alle sfide creative e tecniche lungo tutto il processo di produzione.</span></p><p> </p><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG2n2J_UQ0/J5ha65cb0iFy68cyOoNzFw/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div><p style="text-align: justify; text-justify: inter-word; margin: 0 auto; width: 80%;"></p><div class="canva-wrapper"><hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #aaa, transparent); width: 80%; margin: 3rem auto; opacity: 0.7; border-radius: 2px;"><h2> </h2><h1 class="align-center">Project overview</h1><p> </p><blockquote><p data-start="0" data-end="514">What if the solution to your problems came from a commercial? How likely would it be a scam? Chester Wyatt never really asked himself that question… or maybe he did, just a little too late. Chester, a lazy and disorganized farmer,  suddenly finds himself caught in a challenge far beyond his abilities: turning his long-neglected cornfield into the best in the county, all to win a tempting cash prize. And he has less than twenty-four hours to do it. A hopeless task… or maybe there’s still a chance.<br><em data-start="516" data-end="526">Pop Tale</em> was born from the clear intention to create something genuinely fun — a story capable of making people smile while drawing them into a carefully crafted world. From this simple yet effective idea began our creative adventure: a challenge to ourselves, a long and meticulous journey built on artistic research and strong teamwork. Every visual choice, every animation, every detail of the environments and characters was the result of collective discussion, sometimes heated, but always constructive.</p></blockquote><p> </p><p class="align-center"><strong>CHARACTERS</strong></p><section class="accordion-section"><details class="accordion-item" open="open"><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Chester Wyatt (The Farmer)</span></summary><section class="media-pair media-pair--halftext"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/charaacter_posa_arma_giusta-3.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/charaacter_posa_arma_giusta-3-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/charaacter_posa_arma_giusta-3-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/charaacter_posa_arma_giusta-3-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/charaacter_posa_arma_giusta-3-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3>Chester Wyatt (The Farmer)</h3><p style="text-align: justify; text-justify: inter-word;">From the very early stages of development, the farmer was conceived as a comedic character. The main challenge was defining what kind of humor he should embody: after several considerations, he was ultimately designed as a naive and clumsy figure, more distinctive and spontaneous than the classic grumpy farmer archetype. These traits are reflected in his appearance: a pronounced nose, drooping eyes, and a slightly goofy smile with two protruding teeth and a perpetually distracted expression. He is tall and slim, yet slightly hunched and unkempt, with slow, uncoordinated movements that emphasize his lazy demeanor. His color palette and outfit complete his personality: a faded, oversized denim overall, a white shirt with orange details, and an old, worn-out hat.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG276oVX88/Lj6-D5LdIAiylMJzKLh-6w/view?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details><details class="accordion-item"><br><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Reginald Tucker Carrington Montgomery (The Mayor)</span></summary><section class="media-pair media-pair--halftext media-pair--right"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/frame_005.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/frame_005-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/frame_005-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/frame_005-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/frame_005-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Reginald Tucker Carrington Montgomery (The Mayor)</span></h3><p style="text-align: justify; text-justify: inter-word;">In designing the mayor’s character, the goal was to create a clear contrast with the farmer, both physically and in personality, to make their dynamic immediately recognizable.<br data-start="176" data-end="179">The mayor is short, stocky, and stiff in his movements, with a formal and authoritative attitude that contrasts sharply with the farmer’s spontaneous clumsiness. He is proud, serious, and convinced of his own importance, but this excessive composure makes him comical, as reality constantly undercuts his self-image.<br>Visually, he stands out through his neat clothing and cool-toned color palette (magenta, purple, and blue), in opposition to the warm tones of the rural characters. This visually isolates him from his surroundings, emphasizing his out-of-place nature.<br data-start="750" data-end="753">The mayor thus embodies the archetype of the overly serious character who, without meaning to, becomes ridiculous—perfectly contributing to the short film’s ironic and surreal tone.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG28DN0Pyk/l7Gs5ztzOIhy2aSmLqrphQ/view?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div><p> </p></details><details class="accordion-item"><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Cornelius Wyatt The IV (The Chicken)</span></summary><section class="media-pair media-pair--halftext"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/render_posa_002.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/render_posa_002-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/render_posa_002-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/render_posa_002-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/render_posa_002-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Cornelius Wyatt The IV<br>(The Chicken)</span></h3><p style="text-align: justify; text-justify: inter-word;">The creation of the chicken character, Cornelius, was one of the most stimulating challenges of the project. The goal was to combine his narrative purpose with strong comedic potential, making him the farmer’s comic sidekick. After studying various chicken breeds, the team chose a design that balanced agility and clumsiness, reflecting his dual nature: naive and awkward, yet clever and observant.<br>Physically, Cornelius has a compact, rounded build, perfect for physical gags, yet still agile. His warm color palette makes him lively and instantly recognizable.<br>The character was modeled in Maya and sculpted in ZBrush, with special attention to detail and the needs of the rigger. During the texturing phase, bold color gradients were tested. Cornelius ultimately became a key element of the short film, bringing energy, humor, and rhythm to the story.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG28CyZpow/XEc6kieapx0sIwUbU4UrXw/view?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details></section><p> </p></div><p> </p><p class="align-center"><strong>ENVIRONMENTS</strong></p><section class="accordion-section"><details class="accordion-item" open="open"><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Living room</span></summary><section class="media-pair media-pair--halftext"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/livingroom-3.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/livingroom-3-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/livingroom-3-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/livingroom-3-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/livingroom-3-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3>Living room</h3><p style="text-align: justify; text-justify: inter-word;">The living room appears as a chaotic space, filled with eccentric items and knick-knacks that perfectly reflect the protagonist’s personality. Among the details, there are posters that reveal his musical passions, quirky objects such as a rubber chicken, a SNES console used during his leisure time, and numerous items scattered out of place.<br data-start="361" data-end="364">From a technical perspective, the scene features intentionally stylized forms in the main pieces of furniture, such as the armchair, the cabinet, and the television, complemented by secondary objects, including a remote control, a stove, and a gramophone in the background.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG2_A3z6PI/UYEDJuDeQxrqx9IyjuznIw/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details><details class="accordion-item"><br><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Desk</span></summary><section class="media-pair media-pair--halftext media-pair--right"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/desk-min-1.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/desk-min-1-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/desk-min-1-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/desk-min-1-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/desk-min-1-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Desk</span></h3><p style="text-align: justify; text-justify: inter-word;">The desk serves as the protagonist’s command center, the place where all his passions and obsessions come together. Among them stand out baseball, but above all, his fixation with aliens.<br>On the wall behind him hangs a bulletin board filled with photographs, clues, and newspaper clippings about UFO sightings, undeniable evidence of the existence of extraterrestrial beings.<br>A particularly striking detail is the computer: an old case held together with duct tape, powered by a car battery, and topped with an improvised antenna in a desperate attempt to pick up a signal.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG2_ssbchY/YzkoJ_eZ_D92ty6GTF6Jew/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div><p> </p></details><details class="accordion-item"><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Kitchen</span></summary><section class="media-pair media-pair--halftext"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/kitchen-1.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/kitchen-1-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/kitchen-1-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/kitchen-1-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/kitchen-1-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3>Kitchen</h3><p style="text-align: justify; text-justify: inter-word;">Bathed in the warm light of the morning sun, the kitchen initially conveys a sense of calm and comfort — the perfect setting for a quiet breakfast. Yet, a closer look reveals the unmistakable touch of the protagonist and his chaotic lifestyle: socks stuffed into pots, a sink overflowing with dirty dishes, scattered utensils, grimy rags draped carelessly around, and even a sausage poking out of the refrigerator.<br data-start="414" data-end="417">Despite the mess, this cluttered environment perfectly mirrors his eccentric personality, turning disorder into character. Adding a humorous twist, a bowl of chicken feed sits on the floor with a handwritten sign reading <em data-start="638" data-end="652">“Corny food”</em> — a playful detail that reinforces the quirky charm of the space and the ever-present hint of absurdity that defines the protagonist’s world.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG2_g6ZduM/NzTVeQVhCqvD25xmkbVEUA/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details><details class="accordion-item"><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Entrance</span></summary><section class="media-pair media-pair--halftext"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/entrance-1.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/entrance-1-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/entrance-1-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/entrance-1-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/entrance-1-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3>Entrance</h3><p style="text-align: justify; text-justify: inter-word;">The entrance, bathed in sunlight that cuts dramatically across the scene, welcomes the viewer with a warm and lively atmosphere. The staircase immediately draws attention with a wall completely covered in framed pictures, each one telling a small part of the protagonists’ story. At the heart of the scene stands the main door with a tiny door just for the chicken.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG3ABmgy0M/hXCHrXKhmu6_GKqry3Ijyw/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG3AIH1aaY/yNrB_JwyCOwQjRRgXeouzg/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details><details class="accordion-item"><br><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Bedroom</span></summary><section class="media-pair media-pair--halftext media-pair--right"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/bedroom.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/bedroom-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/bedroom-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/bedroom-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/bedroom-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Bedroom</span></h3><p style="text-align: justify; text-justify: inter-word;">The bedroom is a small, intimate space where some of the story’s most meaningful elements come together. On the protagonist’s nightstand rests the nest of his inseparable pet, who insists on sleeping close to its owner despite knowing what awaits each morning: becoming his “living alarm clock,” with all the inevitable consequences of trying to wake someone lazy.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG3A_Uitsg/IL9JdIJVIx5bke_Z0Cj5iA/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG3AeEB92g/wDTJVssfk_KjCOIiQwjQvg/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details><details class="accordion-item"><br><summary><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Exterior</span></summary><section class="media-pair media-pair--halftext media-pair"><figure class="media-pair__image"><figure class="post__image"><img loading="lazy" src="https://crateluk.github.io/portfolio-it/media/posts/10/exterior.png" alt="" width="1335" height="1440" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://crateluk.github.io/portfolio-it/media/posts/10/responsive/exterior-xs.png 300w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/exterior-sm.png 480w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/exterior-md.png 768w, https://crateluk.github.io/portfolio-it/media/posts/10/responsive/exterior-lg.png 1024w"></figure></figure><div class="media-pair__content"><div class="media-pair__content-box"><h3><span class="a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Exterior</span></h3><p style="text-align: justify; text-justify: inter-word;">The exterior setting of the short film portrays a quiet American farmhouse, with the protagonist’s home at its center, a structure designed to mirror his personality. The surrounding details bring the scene to life: a small chicken coop, a mailbox topped with an antenna and covered in alien stickers, and rustic touches like barrels, hay bales, and wooden fences.<br>Completing this quirky setting is the farmer’s stall, a small, improvised structure built from reused materials. With a faded beach umbrella, an old mini fridge, and a rusty bicycle, it gives off a feeling of creative messiness.</p></div></div></section><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG3A6hP_Kg/Ksw2ByWSGtiAw6dbEQRuIQ/watch?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div><div class="canva-wrapper"><div class="post__iframe"><iframe width="1920" height="1080" style="width: 811px; height: 456px; border: none; border-radius: 16px; overflow: hidden;" data-src="https://www.canva.com/design/DAG3A0K_M0Q/3bszLx8ilUovUtRCjBECXA/view?embed" allowfullscreen="allowfullscreen" loading="lazy"></iframe></div></div></details></section><p> </p></div></article></main><footer class="footer"><div class="footer__copyright"></div><div class="footer__social"><a href="https://www.linkedin.com/in/luca-valvo-956465371/" class="linkedin" aria-label="LinkedIn"><svg class="icon"><use xlink:href="https://crateluk.github.io/portfolio-it/assets/svg/svg-map.svg#linkedin"/></svg></a></div></footer></div><script defer="defer" src="https://crateluk.github.io/portfolio-it/assets/js/scripts.min.js?v=4268bfae06e330d473c424d50f09abda"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.navbar'};</script><script>/*<![CDATA[*/var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};/*]]>*/</script><script>document.addEventListener("DOMContentLoaded", function() {
+  const headers = document.querySelectorAll('.c-card__header');
+  headers.forEach(header => {
+    const img = header.querySelector('img');
+    if(img && img.src) {
+      header.style.backgroundImage = `url('${img.src}')`;
+      img.style.display = 'none'; // nasconde l'immagine originale
+    }
+  });
+});</script><script>document.addEventListener("DOMContentLoaded", function() {
+  // Seleziona ogni sezione accordion indipendentemente
+  const sections = document.querySelectorAll(".accordion-section");
+
+  sections.forEach(section => {
+    const accordions = section.querySelectorAll(".accordion-item");
+
+    accordions.forEach(acc => {
+      const summary = acc.querySelector("summary");
+      summary.addEventListener("click", e => {
+        e.preventDefault();
+
+        if (acc.classList.contains("opened")) {
+          closeAccordion(acc);
+        } else {
+          // Chiudi SOLO gli altri accordion della stessa sezione
+          accordions.forEach(a => {
+            if (a !== acc && a.classList.contains("opened")) closeAccordion(a);
+          });
+          openAccordion(acc);
+        }
+      });
+    });
+  });
+
+  // --- Funzioni di apertura e chiusura con animazione ---
+  function openAccordion(acc) {
+    acc.setAttribute("open", "true");
+    acc.classList.add("opening");
+    acc.style.height = acc.scrollHeight + "px";
+
+    setTimeout(() => {
+      acc.classList.remove("opening");
+      acc.classList.add("opened");
+      acc.style.height = acc.scrollHeight + "px";
+    }, 250);
+  }
+
+  function closeAccordion(acc) {
+    const summary = acc.querySelector("summary");
+    const summaryRect = summary.getBoundingClientRect();
+
+    // Scrolla solo se è sopra la viewport
+    if (summaryRect.top < 0) {
+      summary.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+
+    acc.classList.add("closing");
+    acc.classList.remove("opened");
+    acc.style.height = acc.scrollHeight + "px";
+    acc.offsetHeight; // forza reflow
+
+    acc.style.height = summary.offsetHeight + "px";
+
+    setTimeout(() => {
+      acc.classList.remove("closing");
+      acc.removeAttribute("open");
+      acc.style.height = "";
+    }, 400);
+  }
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  // Segna come "opened" tutti i <details open> all'avvio
+  document.querySelectorAll('.accordion-item[open]').forEach(acc => {
+    acc.classList.add('opened');
+    // blocca l'altezza allo stato corrente per evitare micro-salto al primo toggle
+    acc.style.height = acc.scrollHeight + 'px';
+  });
+
+  // Se dentro ci sono immagini (come nel tuo primo pannello), riallinea l'altezza a immagini caricate
+  window.addEventListener('load', () => {
+    document.querySelectorAll('.accordion-item[open]').forEach(acc => {
+      acc.style.height = acc.scrollHeight + 'px';
+    });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  // Limita TUTTO all'area accordion per non toccare il menu
+  const root = document.querySelector('.accordion-section');
+  if (!root) return;
+
+  // Assicura il markup giusto: <details> → summary + .accordion-item__content > .accordion-item__inner
+  root.querySelectorAll('.accordion-item').forEach(d => {
+    // crea .accordion-item__content se manca
+    if (!d.querySelector('.accordion-item__content')) {
+      const content = document.createElement('div');
+      content.className = 'accordion-item__content';
+      // sposta dentro tutto tranne il <summary>
+      [...d.children].forEach(n => { if (n.tagName !== 'SUMMARY') content.appendChild(n); });
+      d.appendChild(content);
+    }
+    // crea .accordion-item__inner se manca
+    const content = d.querySelector('.accordion-item__content');
+    if (content && !content.querySelector('.accordion-item__inner')) {
+      const inner = document.createElement('div');
+      inner.className = 'accordion-item__inner';
+      while (content.firstChild) inner.appendChild(content.firstChild);
+      content.appendChild(inner);
+    }
+  });
+
+  // (Opzionale) consenti un solo pannello aperto alla volta
+  root.addEventListener('toggle', (e) => {
+    const opened = e.target;
+    if (opened.matches('.accordion-item[open]')) {
+      root.querySelectorAll('.accordion-item[open]').forEach(d => {
+        if (d !== opened) d.removeAttribute('open');
+      });
+    }
+  }, true);
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  const sec = document.querySelector('.accordion-section');
+  if (!sec) return;
+
+  // attiva la modalità full-bleed
+  sec.classList.add('full-bleed');
+
+  // crea un wrapper interno per gestire i gutter, se manca
+  if (!sec.querySelector(':scope > .accordion-container')) {
+    const wrap = document.createElement('div');
+    wrap.className = 'accordion-container';
+    while (sec.firstChild) wrap.appendChild(sec.firstChild);
+    sec.appendChild(wrap);
+  }
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  // URL base delle due versioni
+  const IT_BASE = 'https://crateluk.github.io/provasito-it/';
+  const EN_BASE = 'https://crateluk.github.io/provasito-en/';
+
+  // Mappa slug diversi tra lingue (se necessario)
+  const MAP_IT_TO_EN = {
+    // 'https://crateluk.github.io/provasito-it/page-4/': 'https://crateluk.github.io/provasito-en/about-me/',
+  };
+  const MAP_EN_TO_IT = Object.fromEntries(Object.entries(MAP_IT_TO_EN).map(([it, en]) => [en, it]));
+
+  const url = location.href;
+  const isEN = url.startsWith(EN_BASE);
+  let target;
+
+  if (isEN) {
+    target = MAP_EN_TO_IT[url] || url.replace(EN_BASE, IT_BASE);
+  } else {
+    target = MAP_IT_TO_EN[url] || url.replace(IT_BASE, EN_BASE);
+  }
+
+  // aggiorna i link del menu "Language"
+  document.querySelectorAll('a').forEach(a => {
+    const text = a.textContent.trim().toLowerCase();
+    if (text === 'inglese' || text === 'en') a.href = target.replace(IT_BASE, EN_BASE);
+    if (text === 'italiano' || text === 'it') a.href = target.replace(EN_BASE, IT_BASE);
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  // Rendi tutte le accordion full-bleed + wrapper interno
+  document.querySelectorAll('.accordion-section').forEach(sec => {
+    sec.classList.add('full-bleed');
+    if (!sec.querySelector(':scope > .accordion-container')) {
+      const wrap = document.createElement('div');
+      wrap.className = 'accordion-container';
+      while (sec.firstChild) wrap.appendChild(sec.firstChild);
+      sec.appendChild(wrap);
+    }
+  });
+
+  // (se usi anche il JS che crea .accordion-item__content) applicalo a tutte
+  document.querySelectorAll('.accordion-section .accordion-item').forEach(d => {
+    if (!d.querySelector('.accordion-item__content')) {
+      const content = document.createElement('div');
+      content.className = 'accordion-item__content';
+      [...d.children].forEach(n => { if (n.tagName !== 'SUMMARY') content.appendChild(n); });
+      d.appendChild(content);
+    }
+    if (!d.querySelector('.accordion-item__inner')) {
+      const c = d.querySelector('.accordion-item__content');
+      const inner = document.createElement('div');
+      inner.className = 'accordion-item__inner';
+      while (c.firstChild) inner.appendChild(c.firstChild);
+      c.appendChild(inner);
+    }
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  // Limita tutto alle aree accordion per non toccare il menu
+  const opened = document.querySelectorAll('.accordion-section .accordion-item[open]');
+  if (!opened.length) return;
+
+  // Nascondi per un istante per evitare qualsiasi sfarfallio
+  document.documentElement.classList.add('fixing-accordion');
+
+  opened.forEach(d => {
+    // disattiva transizione mentre forziamo il ricalcolo
+    d.classList.add('no-anim');
+
+    // CHIUDI (senza animare)
+    d.removeAttribute('open');
+    // forza reflow
+    void d.offsetHeight;
+
+    // RIAPRI (senza animare) e porta l’altezza alla dimensione reale
+    d.setAttribute('open', '');
+    d.style.height = d.scrollHeight + 'px';
+
+    // pulizia: riattiva transizione e rimuovi height inline al prossimo frame
+    requestAnimationFrame(() => {
+      d.classList.remove('no-anim');
+      // se usi la transizione su height, lasciare l'inline height un frame aiuta;
+      // poi la togliamo per lasciare gestire tutto al browser
+      setTimeout(() => { d.style.height = ''; }, 50);
+    });
+  });
+
+  // mostra di nuovo la pagina
+  requestAnimationFrame(() => {
+    document.documentElement.classList.remove('fixing-accordion');
+  });
+});
+
+// extra: se ci sono immagini/iframe che cambiano l’altezza, ripeti il fix a caricamento completo
+window.addEventListener('load', () => {
+  document.querySelectorAll('.accordion-section .accordion-item[open]').forEach(d => {
+    d.classList.add('no-anim');
+    d.removeAttribute('open'); void d.offsetHeight;
+    d.setAttribute('open',''); d.style.height = d.scrollHeight + 'px';
+    requestAnimationFrame(() => { d.classList.remove('no-anim'); setTimeout(() => { d.style.height=''; }, 50); });
+  });
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  const iframes = document.querySelectorAll('.canva-wrapper iframe[data-src], iframe[loading="lazy"][data-src]');
+
+  const isValidEmbedUrl = (u) => {
+    if (!u) return false;
+    const val = u.trim();
+    if (!val || val === 'undefined' || val === 'null' || val === '#') return false;
+    try {
+      const url = new URL(val, window.location.href); // handles relative
+      // allow only https embeds (adjust domains if vuoi)
+      if (url.protocol !== 'https:') return false;
+      return true;
+    } catch { return false; }
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    iframes.forEach(iframe => {
+      const url = iframe.dataset.src;
+      if (isValidEmbedUrl(url)) iframe.src = url;
+      else console.warn('[iframe lazy] invalid data-src:', url, iframe);
+    });
+    return;
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const iframe = entry.target;
+      if (!entry.isIntersecting || iframe.src) return;
+
+      const url = iframe.dataset.src;
+      if (!isValidEmbedUrl(url)) {
+        console.warn('[iframe lazy] skipped invalid data-src:', url, iframe);
+        // non rimuovere data-src: potrai correggerla in Publii senza rigenerare lo script
+        return;
+      }
+
+      iframe.classList.add('is-loading');
+
+      const tryLoad = (attempt = 1) => {
+        iframe.src = url;
+
+        const safety = setTimeout(() => {
+          if (!iframe.dataset.loaded && attempt < 5) {
+            console.warn(`[iframe lazy] retry ${attempt} →`, url);
+            tryLoad(attempt + 1);
+          }
+        }, 2000);
+
+        iframe.addEventListener('load', () => {
+          clearTimeout(safety);
+          iframe.dataset.loaded = 'true';
+          iframe.classList.remove('is-loading');
+          iframe.classList.add('is-visible');
+        }, { once: true });
+      };
+
+      setTimeout(() => {
+        tryLoad();
+        // rimuovi data-src solo dopo avere impostato un URL valido
+        iframe.removeAttribute('data-src');
+      }, 500);
+    });
+  }, { rootMargin: '400px 0px 400px 0px', threshold: 0.05 });
+
+  iframes.forEach(iframe => observer.observe(iframe));
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  const footerSocial = document.querySelector('.footer__social');
+  if (footerSocial) {
+    // crea link email
+    const mailLink = document.createElement('a');
+    mailLink.href = 'mailto:luca.valvo.03@gmail.com';
+    mailLink.className = 'email';
+    mailLink.setAttribute('aria-label', 'Email');
+
+    // icona inline (così è sempre visibile)
+    mailLink.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+           fill="currentColor" class="icon">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 
+        0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.01L12 13l8-6.99V6H4z"/>
+      </svg>
+    `;
+
+    // Inserisci PRIMA del link LinkedIn
+    const firstIcon = footerSocial.querySelector('a');
+    footerSocial.insertBefore(mailLink, firstIcon);
+  }
+});</script><script>document.addEventListener('DOMContentLoaded', () => {
+  const mailLink = document.querySelector('.footer__social a.email');
+  
+  if (mailLink) {
+    mailLink.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const email = 'luca.valvo.03@gmail.com';
+      const subject = encodeURIComponent('Richiesta dal portfolio');
+      const body = encodeURIComponent('Ciao Luca, ti contatto riguardo al tuo progetto...');
+      
+      // URL Gmail
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
+
+      // ✅ Prova ad aprire Gmail in una nuova scheda
+      const newTab = window.open(gmailUrl, '_blank');
+
+      // 🧩 Fallback: se non si apre una nuova scheda o l’utente blocca i popup
+      if (!newTab || newTab.closed || typeof newTab.closed === 'undefined') {
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+      }
+    });
+  }
+});</script><style>/* stile base per l’icona telefono */
+.footer__social .phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  overflow: visible; /* <-- importante: lascia visibile il contenuto */
+}
+
+/* numero di telefono */
+.footer__social .phone-number {
+  font-size: 1.1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 0 8px;
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: fadeSlideIn 0.6s ease forwards;
+}
+
+/* animazione "scrittura" simulata (fade + slide) */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* stato espanso: sposta leggermente a sinistra */
+.footer__social .phone.expanded {
+  margin-right: 10px;
+  transform: translateX(-40px) translateY(-2px);
+}</style><script>document.addEventListener('DOMContentLoaded', () => {
+  const footerSocial = document.querySelector('.footer__social');
+  if (footerSocial) {
+    const phoneLink = document.createElement('a');
+    phoneLink.href = '#';
+    phoneLink.className = 'phone';
+    phoneLink.setAttribute('aria-label', 'Telefono');
+
+    // icona telefono
+    const getPhoneIcon = () => `
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+           fill="currentColor" class="icon" width="24" height="24">
+        <path d="M6.62 10.79a15.464 15.464 0 0 0 6.59 6.59l2.2-2.2
+        c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 
+        1 1v3.5c0 .55-.45 1-1 1C10.85 22 2 13.15 2 
+        2.5c0-.55.45-1 1-1H6.5c.55 0 1 .45 1 
+        1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 
+        1.02l-2.2 2.2z"/>
+      </svg>
+    `;
+
+    // stato iniziale: icona
+    phoneLink.innerHTML = getPhoneIcon();
+
+    // toggle tra icona e numero
+    let showingNumber = false;
+    phoneLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (!showingNumber) {
+        phoneLink.classList.add('expanded');
+        phoneLink.innerHTML = '<span class="phone-number">+39 339 252 3326</span>';
+      } else {
+        phoneLink.classList.remove('expanded');
+        phoneLink.innerHTML = getPhoneIcon();
+      }
+      showingNumber = !showingNumber;
+    });
+
+    // inserisci PRIMA del link LinkedIn
+    const firstIcon = footerSocial.querySelector('a');
+    footerSocial.insertBefore(phoneLink, firstIcon);
+  }
+});</script></body></html>
