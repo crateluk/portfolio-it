@@ -3,7 +3,7 @@
     <title>Luca Valvo It</title>
     <link href="https://crateluk.github.io/portfolio-it/feed.xml" rel="self" />
     <link href="https://crateluk.github.io/portfolio-it" />
-    <updated>2025-10-28T01:47:20+01:00</updated>
+    <updated>2025-10-28T01:51:22+01:00</updated>
     <author>
         <name>Luca</name>
     </author>
@@ -315,6 +315,7 @@
         <link href="https://crateluk.github.io/portfolio-it/1/"/>
         <id>https://crateluk.github.io/portfolio-it/1/</id>
         <media:content url="https://crateluk.github.io/portfolio-it/media/posts/10/image-1-compressed.jpg" medium="image" />
+            <category term="Z-brush"/>
             <category term="Vray"/>
             <category term="Nuke"/>
             <category term="Microsoft Office"/>
